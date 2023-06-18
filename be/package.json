@@ -1,0 +1,21 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "description": "This Application is for PhotoMac",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "start:prod": "node app.js",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.16.2",
+    "express-interceptor": "^1.2.0",
+    "mongoose": "^5.4.0"
+  }
+}
